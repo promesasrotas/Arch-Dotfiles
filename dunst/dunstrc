@@ -1,0 +1,60 @@
+[global]
+    # Genaral
+    monitor = 0
+    follow = none
+    width = 250
+    height = 600
+    origin = top-right
+    offset = 10x50
+    scale = 0
+    notification_limit = 20
+
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 0
+    icon_corner_radius = 0
+    indicate_hidden = yes
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
+    frame_color = "#1f1d2e"
+    frame_width = 3
+    gap_size = 0
+    sort = yes
+    font = MesloLGLDZ Nerd Font 12
+    format = "%i<i> %a </i>%p"
+    alignment = center
+    vertical_alignment = center
+    #enable_recursive_icon_lookup = true
+    icon_position = left
+    min_icon_size = 48
+    max_icon_size = 128
+    icon_path = /usr/share/icons/Papirus/48x48/actions/:/usr/share/icons/Papirus/48x48/apps/:/usr/share/icons/Papirus/48x48/categories/:/usr/share/icons/Papirus/48x48/devices/:/usr/share/icons/Papirus/48x48/emblems/:/usr/share/icons/Papirus/48x48/emotes/:/usr/share/icons/Papirus/48x48/mimetypes/:/usr/share/icons/Papirus/48x48/places/:/usr/share/icons/Papirus/48x48/status/
+    sticky_history = yes
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/xdg-open
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 12
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#191724"
+    foreground = "#e0def4"
+    timeout = 10
+
+[urgency_normal]
+    background = "#191724"
+    foreground = "#A0A8CD"
+    timeout = 10
+
+[urgency_critical]
+    background = "#191724"
+    foreground = "#EE6D85"
+    timeout = 30
