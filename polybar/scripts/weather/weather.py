@@ -1,7 +1,7 @@
 import requests
 
-city = "4012176"
-api_key = "b7b864c3dd3669816e2fc168a1ed94e1"
+city = "city code"
+api_key = "Your API Key"
 units = "Metric"
 unit_key = "C"
 
